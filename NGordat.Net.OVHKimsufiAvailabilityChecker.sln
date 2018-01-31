@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{591104C4-8356-4A04-AF1B-3115A91DDAEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{05E7EA60-AF2E-4B62-897B-70355BF1733A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain", "{2B8B18C1-B00B-4A77-AFCE-A6A1C2D1C9D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Transversal", "04 - Transversal", "{D5A26066-3CA0-4AD4-BB42-A5B067D1D1E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGordat.Net.OVHKimsufiAvailabilityChecker.Transversal", "NGordat.Net.OVHKimsufiAvailabilityChecker.Transversal\NGordat.Net.OVHKimsufiAvailabilityChecker.Transversal.csproj", "{B284FF72-CC27-4412-9F45-19E635AA393C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGordat.Net.OVHKimsufiAvailabilityChecker.Domain", "NGordat.Net.OVHKimsufiAvailabilityChecker.Domain\NGordat.Net.OVHKimsufiAvailabilityChecker.Domain.csproj", "{21C1566E-47DB-4B0A-A9E6-B71B051B4D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGordat.Net.OVHKimsufiAvailabilityChecker.Application", "NGordat.Net.OVHKimsufiAvailabilityChecker.Application\NGordat.Net.OVHKimsufiAvailabilityChecker.Application.csproj", "{F034C869-5234-4E45-96FD-131A9F356426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGordat.Net.OVHKimsufiAvailabilityChecker.Presentation", "NGordat.Net.OVHKimsufiAvailabilityChecker.Presentation\NGordat.Net.OVHKimsufiAvailabilityChecker.Presentation.csproj", "{35EC582C-15D5-40BF-BFE8-3F78A7BA29CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B284FF72-CC27-4412-9F45-19E635AA393C}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{B284FF72-CC27-4412-9F45-19E635AA393C}.Debug|Any CPU.Build.0 = Debug|x64
+		{B284FF72-CC27-4412-9F45-19E635AA393C}.Debug|x64.ActiveCfg = Debug|x64
+		{B284FF72-CC27-4412-9F45-19E635AA393C}.Debug|x64.Build.0 = Debug|x64
+		{B284FF72-CC27-4412-9F45-19E635AA393C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B284FF72-CC27-4412-9F45-19E635AA393C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B284FF72-CC27-4412-9F45-19E635AA393C}.Release|x64.ActiveCfg = Release|x64
+		{B284FF72-CC27-4412-9F45-19E635AA393C}.Release|x64.Build.0 = Release|x64
+		{21C1566E-47DB-4B0A-A9E6-B71B051B4D1A}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{21C1566E-47DB-4B0A-A9E6-B71B051B4D1A}.Debug|Any CPU.Build.0 = Debug|x64
+		{21C1566E-47DB-4B0A-A9E6-B71B051B4D1A}.Debug|x64.ActiveCfg = Debug|x64
+		{21C1566E-47DB-4B0A-A9E6-B71B051B4D1A}.Debug|x64.Build.0 = Debug|x64
+		{21C1566E-47DB-4B0A-A9E6-B71B051B4D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C1566E-47DB-4B0A-A9E6-B71B051B4D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C1566E-47DB-4B0A-A9E6-B71B051B4D1A}.Release|x64.ActiveCfg = Release|x64
+		{21C1566E-47DB-4B0A-A9E6-B71B051B4D1A}.Release|x64.Build.0 = Release|x64
+		{F034C869-5234-4E45-96FD-131A9F356426}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{F034C869-5234-4E45-96FD-131A9F356426}.Debug|Any CPU.Build.0 = Debug|x64
+		{F034C869-5234-4E45-96FD-131A9F356426}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F034C869-5234-4E45-96FD-131A9F356426}.Debug|x64.Build.0 = Debug|Any CPU
+		{F034C869-5234-4E45-96FD-131A9F356426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F034C869-5234-4E45-96FD-131A9F356426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F034C869-5234-4E45-96FD-131A9F356426}.Release|x64.ActiveCfg = Release|Any CPU
+		{F034C869-5234-4E45-96FD-131A9F356426}.Release|x64.Build.0 = Release|Any CPU
+		{35EC582C-15D5-40BF-BFE8-3F78A7BA29CB}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{35EC582C-15D5-40BF-BFE8-3F78A7BA29CB}.Debug|Any CPU.Build.0 = Debug|x64
+		{35EC582C-15D5-40BF-BFE8-3F78A7BA29CB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{35EC582C-15D5-40BF-BFE8-3F78A7BA29CB}.Debug|x64.Build.0 = Debug|Any CPU
+		{35EC582C-15D5-40BF-BFE8-3F78A7BA29CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EC582C-15D5-40BF-BFE8-3F78A7BA29CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EC582C-15D5-40BF-BFE8-3F78A7BA29CB}.Release|x64.ActiveCfg = Release|Any CPU
+		{35EC582C-15D5-40BF-BFE8-3F78A7BA29CB}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B284FF72-CC27-4412-9F45-19E635AA393C} = {D5A26066-3CA0-4AD4-BB42-A5B067D1D1E0}
+		{21C1566E-47DB-4B0A-A9E6-B71B051B4D1A} = {2B8B18C1-B00B-4A77-AFCE-A6A1C2D1C9D0}
+		{F034C869-5234-4E45-96FD-131A9F356426} = {05E7EA60-AF2E-4B62-897B-70355BF1733A}
+		{35EC582C-15D5-40BF-BFE8-3F78A7BA29CB} = {591104C4-8356-4A04-AF1B-3115A91DDAEC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5960C311-744E-4044-8B07-DD5746913D6A}
+	EndGlobalSection
+EndGlobal
